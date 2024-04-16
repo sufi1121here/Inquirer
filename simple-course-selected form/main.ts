@@ -36,5 +36,3 @@ let input = await inquirer.prompt([
 console.log(chalk.blueBright.bold('"'+input.firstname +" "+input.lastname + `" is ` + input.age + ` years old, ` + `has been selected course(s): ` + input.Courses + `, will take ` + input.Class+"."));
 
 
-### Inquirer Programs
-
