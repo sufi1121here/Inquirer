@@ -33,6 +33,6 @@ let input = await inquirer.prompt([
         choices:['Online Classes', 'Physical Classes']
     }])
 
-console.log(chalk.blueBright.bold('"'+input.firstname +" "+input.lastname + `" is ` + input.age + ` years old, ` + `has been selected course(s): ` + input.Courses + `, will take ` + input.Class+"."));
+console.log(chalk.blueBright.bold('\n"'+input.firstname +" "+input.lastname + `" is ` + input.age + ` years old, ` + `has been selected course(s): ` + input.Courses + `, will take ` + input.Class+"."));
 
 
